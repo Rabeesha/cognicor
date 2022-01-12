@@ -1,0 +1,148 @@
+/* .under {
+    position: absolute;
+    bottom: 200px;
+    right: 200px;
+  } */
+  #container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    /* pointer-events: none; */
+  }
+  .chat {
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+    margin: 0 5px;
+    pointer-events: auto;
+    border-radius: 6px;
+box-shadow: 3px 3px 3px 3px #afaeae;
+/* height: 270px; */
+margin-bottom: 27px;
+margin-top: 30px;
+
+  }
+  .title {
+    padding: 0.5em; 
+    color: black;
+    /* width: 250px; */
+    font-size: 12px;
+    border-bottom: solid 1px rgb(226, 226, 226)!important;
+
+  }
+  .text {
+    padding: 10px;
+  }
+  .icons{
+      color: black;
+  }
+  .iconset{
+    float: right;
+  }
+  .chat-right{
+      text-align: right;
+      font-size: 12px;
+      background-color: #3cb1e8;
+      border-radius: 12px;
+      padding: 10px;
+
+  }
+  .chat-left{
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 143px;
+    background-color: #e4e2e2;
+    border-radius: 12px;
+    padding: 10px;
+}
+.ask{
+    color: rgb(194, 193, 192);
+    font-size: 12px!important;
+    /* width: 250px; */
+    border-left: none;
+    padding: 10px;
+    border: none;
+    border-bottom: solid 1px rgb(226, 226, 226)!important;
+
+}
+.powerd{
+    color: rgb(194, 193, 192);
+    font-size: 12px!important;
+    /* width: 250px; */
+    border-left: none;
+    padding: 4px;
+    border: none;   
+    text-align: right!important;
+    border-top: solid 1px rgb(226, 226, 226)!important;
+
+
+}
+.arrow{
+    color: gray;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 5px;
+    float: right;
+}
+.chatbox{
+    border-top: solid 1px rgb(226, 226, 226)!important;
+
+}
+@media screen and (min-width: 320px) {
+   
+  .chat{
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+  }
+      .chat-right{
+        width: 35px!important;
+float: right;
+      }
+      .chat-left{
+        width: 35px;
+      }
+  }
+  .dumytext{
+      width: 250px;
+      background-color: #041737;
+      color: #aeb1bf;
+      padding: 15px;
+      border-radius: 12px;
+      font-size: 10px;
+      line-height: 20px;
+  }
+  .dumyques{
+    padding: 20px;
+    width: 250px;
+    border-radius: 12px;
+    background-color: #21487e;
+    color: #c6d0dd;
+    font-size: 10px;
+  }
+  .aply{
+    border-radius: 12px;
+    padding: 2px 20px 1px 20px;
+    border-color: white;
+    color: #c6d0dd;
+    background-color: #041737;
+
+
+  }
+  .chats{
+    float: right;
+    right: 0;
+  }
+  .cmnd{
+    float: right!important;
+    /* margin: 5px; */
+    color: #959595;
+  }
+  .arrwimg{
+    height:20px;
+    width:13px;
+     margin:8px;
+     float:right;
+  }
+  .head{
+    font-size: 15px;
+  }
