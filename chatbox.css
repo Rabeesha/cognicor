@@ -123,7 +123,7 @@ float: right;
     border-radius: 12px;
     padding: 2px 20px 1px 20px;
     border-color: white;
-    color: #c6d0dd;
+    color: white;
     background-color: #041737;
 
 
@@ -145,4 +145,5 @@ float: right;
   }
   .head{
     font-size: 15px;
+    color: white;
   }
